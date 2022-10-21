@@ -1267,3 +1267,10 @@ artifacts/db/pg_multixact/offsets/0000
 artifacts/db/pg_subtrans/0000
 artifacts/db/pg_wal/000000010000000000000001
 artifacts/db/pg_xact/0000
+artifacts/db/base/5/16388
+artifacts/db/base/5/16391
+artifacts/db/base/5/16392
+artifacts/db/base/5/16393
+config/__pycache__/__init__.cpython-38.pyc
+artifacts/db/base/5/16400
+artifacts/db/base/5/16403
