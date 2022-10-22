@@ -1,8 +1,8 @@
 import os
 
-from dotenv import load_dotenv
+from dotenv import find_dotenv, load_dotenv
 
-load_dotenv('./.env')
+load_dotenv(find_dotenv('.env'))
 
 POSTGRES_OUT_PORT = os.getenv('DB_OUT_PORT')
 POSTGRES_USER = os.getenv('DB_USER')
