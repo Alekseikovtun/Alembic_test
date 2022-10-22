@@ -5,17 +5,12 @@ from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
-if __name__ == '__models__':
-    class UserModel(Base):
-        __tabelname__ = 'user'
 
-        id = Column(Integer, primary_key=True)
-        first_name = Column(String, nullable=False)
-        last_name = Column(String, nullable=False)
-        birth = Column(DateTime)
-        created = Column(DateTime, default=datetime.utcnow)
+class UserModel(Base):
+    __tablename__ = 'user'
 
-
-# db = f"""postgresql://\
-# {db_config.POSTGRES_USER}:{db_config.POSTGRES_PASSWORD}\
-# @localhost:{db_config.POSTGRES_OUT_PORT}/{db_config.DB_NAME}"""
+    id = Column(Integer, primary_key=True)
+    first_name = Column(String, nullable=False)
+    last_name = Column(String, nullable=False)
+    birth = Column(DateTime)
+    created = Column(DateTime, default=datetime.datetime.utcnow)

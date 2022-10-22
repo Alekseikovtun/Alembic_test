@@ -1,4 +1,6 @@
 .env
+/__pycache__
+/config/__pycache__
 /artifacts/db
 artifacts/db/pg_hba.conf
 artifacts/db/pg_ident.conf
