@@ -1,4 +1,5 @@
 .env
+/artifacts/db
 artifacts/db/pg_hba.conf
 artifacts/db/pg_ident.conf
 artifacts/db/PG_VERSION

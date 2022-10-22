@@ -14,3 +14,8 @@ if __name__ == '__models__':
         last_name = Column(String, nullable=False)
         birth = Column(DateTime)
         created = Column(DateTime, default=datetime.utcnow)
+
+
+# db = f"""postgresql://\
+# {db_config.POSTGRES_USER}:{db_config.POSTGRES_PASSWORD}\
+# @localhost:{db_config.POSTGRES_OUT_PORT}/{db_config.DB_NAME}"""
