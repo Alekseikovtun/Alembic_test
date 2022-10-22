@@ -1,9 +1,7 @@
 import datetime
 
 from sqlalchemy import Column, DateTime, Integer, String
-from sqlalchemy.orm import declarative_base
-
-Base = declarative_base()
+from models.base import Base
 
 
 class UserModel(Base):

@@ -1277,3 +1277,16 @@ artifacts/db/base/5/16393
 config/__pycache__/__init__.cpython-38.pyc
 artifacts/db/base/5/16400
 artifacts/db/base/5/16403
+config/__pycache__/db_config.cpython-38.pyc
+migrations/__pycache__/env.cpython-38.pyc
+migrations/versions/__pycache__/6dbfa8a98ca5_add_models_das4.cpython-38.pyc
+migrations/versions/__pycache__/9527c610f837_add_models_das2.cpython-38.pyc
+migrations/versions/__pycache__/a0da9719704f_add_models_das.cpython-38.pyc
+migrations/versions/__pycache__/c55f78173bc7_.cpython-38.pyc
+migrations/versions/__pycache__/c787c6e396fa_add_models_das.cpython-38.pyc
+migrations/versions/__pycache__/cab6b85d27c8_add_column_test.cpython-38.pyc
+models/__pycache__/__init__.cpython-38.pyc
+models/__pycache__/base.cpython-38.pyc
+models/__pycache__/drone.cpython-38.pyc
+models/__pycache__/station.cpython-38.pyc
+models/__pycache__/user.cpython-38.pyc
