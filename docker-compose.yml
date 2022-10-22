@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  database:
+    container_name: postgres_alembic
+    image: postgres:15
+    ports:
+      - ${DB_OUT_PORT}:5432
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_TYPE}
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - ./artifacts/db:/var/lib/postgresql/data/pgdata
